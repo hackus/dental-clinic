@@ -46,29 +46,31 @@ const activities = [
 
 
   return (
-    <div className="bg-gray-50 py-5 px-6">
-      <h1 className="text-3xl font-bold text-center text-gray-800 mb-10">
-        Our Activities
-      </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-        {activities.map((activity, index) => (
-          <div
-            key={index}
-            className="rounded-2xl overflow-hidden shadow-lg bg-white hover:shadow-xl transition duration-300"
-          >
-            <img
-              src={activity.img}
-              alt={activity.title}
-              className="w-full h-64 object-cover"
-            />
-            <div className="p-4">
-              <h2 className="text-xl font-semibold text-gray-700">
-                {activity.title}
-              </h2>
-            </div>
+<div className="bg-gray-50 py-5 px-6 flex justify-center">
+  <div className="w-full max-w-5xl">
+    <h1 className="text-3xl font-bold text-center text-gray-800 mb-10">
+      Our Activities
+    </h1>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {activities.map((activity, index) => (
+        <div
+          key={index}
+          className="rounded-2xl overflow-hidden shadow-lg bg-white hover:shadow-xl transition duration-300"
+        >
+          <img
+            src={activity.img}
+            alt={activity.title}
+            className="w-full h-64"
+          />
+          <div className="p-4">
+            <h2 className="text-xl font-semibold text-gray-700">
+              {activity.title}
+            </h2>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
+  </div>
+</div>
   );
 }
