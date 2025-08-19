@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col">
-        <main className="flex-1 p-6 bg-gray-50">
+        <main className="flex-1 bg-gray-50">
           <PageLoader>
             <Navbar />
             <Routes>
@@ -23,7 +23,7 @@ function App() {
             </Routes>
           </PageLoader>
         </main>
-        <footer className="p-2 bg-blue-400 text-white text-center rounded-lg shadow-sm">
+        <footer className="h-6 bg-blue-400 text-white text-center shadow-sm flex items-center justify-center rounded-lg">
           © {new Date().getFullYear()} Dental Clinic. All rights reserved.
         </footer>
       </div>
