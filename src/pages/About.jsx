@@ -2,7 +2,7 @@ import dentalTeamImg from "../assets/about/team.jpg";
 
 export default function AboutUs() {
   return (
-    <div className="bg-gray-50 py-12 px-6">
+    <div className="bg-gray-50 py-12 px-6 h-full">
       {/* Heading */}
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-12">
         About Us

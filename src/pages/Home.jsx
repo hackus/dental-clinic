@@ -3,7 +3,7 @@ import smileImg from "../assets/happy-european-woman-broad-smile-feels-excitemen
 export default function Home() {
   return (
     <section
-      className="relative py-12 px-6 bg-cover bg-center h-[90vh] flex items-center justify-center"
+      className="relative py-12 px-6 bg-cover bg-center h-full flex items-center justify-center"
       style={{
         backgroundImage: `url(${smileImg})`,
       }}

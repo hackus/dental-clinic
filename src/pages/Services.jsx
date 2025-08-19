@@ -17,7 +17,7 @@ export default function Services() {
   ];
 
   return (
-    <div className="bg-gray-50 py-12 px-6 flex justify-center">
+    <div className="bg-gray-50 py-12 px-6 flex justify-center h-full">
       <div className="w-full max-w-5xl">
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-12">
           Our Activities

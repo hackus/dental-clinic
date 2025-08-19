@@ -19,7 +19,7 @@ export default function ContactUs() {
     };
 
   return (
-    <div className="bg-gray-50 py-12 px-6">
+    <div className="bg-gray-50 py-12 px-6 h-full">
       {/* Page Title */}
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-12">
         Contact Us

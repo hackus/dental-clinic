@@ -10,10 +10,10 @@ import PageLoader from "./pages/PageLoader";
 function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col">
+      <div className="h-screen flex flex-col">
+        <Navbar />
         <main className="flex-1 bg-gray-50">
           <PageLoader>
-            <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/dental-clinic" element={<Home />} />
