@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/dental-clinic/static/css/main.40f45e6e.css",
-    "main.js": "/dental-clinic/static/js/main.9bdd6c8b.js",
+    "main.css": "/dental-clinic/static/css/main.d745ee3b.css",
+    "main.js": "/dental-clinic/static/js/main.d2fcbdeb.js",
     "static/js/453.65564313.chunk.js": "/dental-clinic/static/js/453.65564313.chunk.js",
+    "static/media/happy-european-woman-broad-smile-feels-excitement.jpg": "/dental-clinic/static/media/happy-european-woman-broad-smile-feels-excitement.371d34d4c66a5783f688.jpg",
+    "static/media/whitening.jpg": "/dental-clinic/static/media/whitening.0f3c74c931aa25631e05.jpg",
+    "static/media/fillings.jpg": "/dental-clinic/static/media/fillings.4be017edbd0ed2a44c71.jpg",
+    "static/media/checkups.jpg": "/dental-clinic/static/media/checkups.50627a1f4b0640240a78.jpg",
+    "static/media/implants.jpg": "/dental-clinic/static/media/implants.70f820ddeb98db226327.jpg",
+    "static/media/diagnostics.jpg": "/dental-clinic/static/media/diagnostics.b367b1f81fcecb5ed88a.jpg",
+    "static/media/orthodontics.jpg": "/dental-clinic/static/media/orthodontics.5b133830ed667cbacd6b.jpg",
+    "static/media/team.jpg": "/dental-clinic/static/media/team.8d06b2769d864e6c49e4.jpg",
     "index.html": "/dental-clinic/index.html",
-    "main.40f45e6e.css.map": "/dental-clinic/static/css/main.40f45e6e.css.map",
-    "main.9bdd6c8b.js.map": "/dental-clinic/static/js/main.9bdd6c8b.js.map",
+    "main.d745ee3b.css.map": "/dental-clinic/static/css/main.d745ee3b.css.map",
+    "main.d2fcbdeb.js.map": "/dental-clinic/static/js/main.d2fcbdeb.js.map",
     "453.65564313.chunk.js.map": "/dental-clinic/static/js/453.65564313.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40f45e6e.css",
-    "static/js/main.9bdd6c8b.js"
+    "static/css/main.d745ee3b.css",
+    "static/js/main.d2fcbdeb.js"
   ]
 }
