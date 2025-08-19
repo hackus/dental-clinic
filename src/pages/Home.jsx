@@ -21,7 +21,7 @@ export default function Home() {
            happy smiles!
          </p>
          <a
-           href="/#/contact"
+           href="/dental-clinic/#/contact"
            className="bg-white text-blue-700 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-100"
          >
            Book an Appointment
